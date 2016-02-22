@@ -5,6 +5,7 @@ ruby '2.1.5'
 gem 'rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'

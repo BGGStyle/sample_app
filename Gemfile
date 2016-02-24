@@ -6,9 +6,9 @@ gem 'rails'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'bcrypt'
+gem 'pg'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-	gem 'sqlite3'
 	gem 'rspec-rails'
 end
 
@@ -39,7 +39,6 @@ gem 'sdoc',          group: :doc
 
 
 group :production do
-	gem 'pg'
 	gem 'rails_12factor'
 end
 
